@@ -1,0 +1,10 @@
+$primary: #ff0;
+$secondary:#FF0000;
+
+.test {
+    color:$primary;
+
+    .test-1 {
+        color: $secondary;
+    }
+}
